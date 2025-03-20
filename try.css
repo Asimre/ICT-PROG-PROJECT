@@ -1,0 +1,120 @@
+body {
+  margin: 0px 0px 0px 0px;
+  height: 1000px;
+}
+
+/* The header section of the entire website is designed here (Part 1) */
+.header-section {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-width: 1px;
+  height: 50px;
+  background-color: rgb(106, 181, 241);
+  column-gap: 20px;
+}
+
+.logo-section {
+  display: flex;
+  margin-left: 10px;
+  flex-shrink: 0;
+}
+
+.menu-picture {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+}
+
+.search-section {
+  display: flex;
+  column-gap: 10px;
+  width: 250px;
+}
+
+.search-bar {
+  display: flex;
+  flex: 1;
+  width: 0;
+}
+
+.search-bar input  {
+  display: flex;
+  flex: 1;
+  width: 0;
+  border-radius: 15px;
+  align-self: center;
+  padding: 10px 0px 10px 10px;
+}
+
+.search-picture {
+  align-self: center;
+  background-color: aquamarine;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+}
+
+.setting-section {
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+
+
+
+/* The side menu bar's design is inside here */
+
+.side-section {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 51px;
+  bottom: 0;
+  width: 75px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+  border-right-style: solid;
+  border-width: 1px;
+}
+
+.members {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.rank {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.activity {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.club {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  
+}
+
+.laboratory {
+  
+}
+
+.side-section img {
+  width: 50px;
+  height: 50px;
+}
